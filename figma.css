@@ -35,6 +35,9 @@ body{
     border: none;
     
 }
+#btn:hover{
+    background-color: rgb(158, 25, 158);
+}
 .content{
     float: right;
     
@@ -58,12 +61,14 @@ body{
 .grid{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-between;
     
 
 }
 .grid img{
     width: 100%;
     margin: 10px 0;
+    
 }
 
  /*resume page  */
@@ -95,13 +100,18 @@ h1{
 /* certificates ar kaj suru */
 .certificates{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto  auto;
     justify-content: end;
+    
     
 
 }
 .certificates img{
-   
+   height: 30vh;
+   width: 100%;
+   margin: 0 15px;
+   padding: 5px;
+
 }
 
 
