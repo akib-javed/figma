@@ -1,0 +1,121 @@
+
+body{
+    height: 1024px;
+    width: 1440px;
+    background-color: rgb(34, 26,55);
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/Background\ Image.png');
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+.header{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.left{
+    display: flex;
+    color: white;
+    
+}
+.right a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+#btn{
+    background-color: rgb(64,33,102);
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    
+}
+.content{
+    float: right;
+    
+}
+.content h1{
+    color: white;
+}
+#cheif{
+    color: rgb(128, 0, 128);
+}
+#design{
+    color: rgba(140, 134, 134, 0.661);
+}
+.small{
+    margin: 0;
+    padding: 0;
+    color: rgb(161, 150, 150);
+}
+/* akhan theke gallery ar kaj suru */
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+
+}
+.grid img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+ /*resume page  */
+.resume{
+    display:grid;
+    float: right;
+    height: 20vh;
+    width: 40%;
+    
+   
+}
+h1{
+    color: #5D3974;
+    font-size: 20px;
+    width: 100%;
+}
+.top1{
+    display: flex;
+
+}
+.top2{
+    display: flex;
+    margin: 20px 0;
+}
+.top3{
+    display: flex;
+}
+
+/* certificates ar kaj suru */
+.certificates{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    
+
+}
+.certificates img{
+   
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {}
+  
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+  
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
