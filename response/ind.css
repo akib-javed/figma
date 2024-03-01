@@ -1,0 +1,9 @@
+@media screen and (max-width: 575px) {
+            body{
+                background-color: rgb(34, 26,55);
+            }
+            .main{
+                background-image: none;
+            }
+    
+}
